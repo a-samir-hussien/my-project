@@ -1,0 +1,101 @@
+{
+  "contracts": {
+    "MyContract": {
+      "address": "0x18B532E9620FC8bEF5DbaB63f08eFE54B70BBe00",
+      "constructorCode": "608060405234801561001057600080fd5b5061052e806100206000396000f3fe",
+      "bodyBytecodeHash": "822b96fe62d03cbada617be5ea58499d6802c68e0354183cefea0276cb1a1aa2",
+      "localBytecodeHash": "c4210e86d0f19a344ce9c824e401943271a21948d6136f74a5b05d972567d7ea",
+      "deployedBytecodeHash": "c4210e86d0f19a344ce9c824e401943271a21948d6136f74a5b05d972567d7ea",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_string": {
+          "id": "t_string",
+          "kind": "elementary",
+          "label": "string"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 47,
+          "type": "t_bool",
+          "src": "757:24:1"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 49,
+          "type": "t_bool",
+          "src": "876:25:1"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 98,
+          "type": "t_array:50<t_uint256>",
+          "src": "1891:29:1"
+        },
+        {
+          "contract": "MyContract",
+          "path": "contracts/MyContract.sol",
+          "label": "x",
+          "astId": 6,
+          "type": "t_uint256",
+          "src": "114:16:0"
+        },
+        {
+          "contract": "MyContract",
+          "path": "contracts/MyContract.sol",
+          "label": "s",
+          "astId": 8,
+          "type": "t_string",
+          "src": "134:15:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "my-project/MyContract": [
+      {
+        "address": "0x1EDc608F04418bDF9B5438e5EdA2B4876e22Cf23",
+        "version": "0.1.0",
+        "implementation": "0x18B532E9620FC8bEF5DbaB63f08eFE54B70BBe00"
+      }
+    ]
+  },
+  "zosversion": "2.2",
+  "version": "0.1.0",
+  "proxyAdmin": {
+    "address": "0x87bF5428282831Eb9aB374E27e392f088c4507b5"
+  }
+}

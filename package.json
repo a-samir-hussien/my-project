@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.0.14",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "zos": "^2.2.3",
+    "zos-lib": "^2.2.3"
+  }
+}
